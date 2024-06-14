@@ -1,0 +1,42 @@
+.container {
+  padding: 20px;
+  color: white;
+  text-align: center; 
+}
+
+.title {
+  margin-bottom: 20px; 
+}
+
+.box {
+  display: flex;
+  align-items: flex-start;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 0 auto; 
+  max-width: 1500px; 
+  background-color: #282c34;
+}
+
+.box img {
+  width: 500px; 
+  height: 700px;
+  margin-right: 20px;
+}
+
+.box div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  flex: 1;
+  color: white;
+}
+
+.box p {
+  margin-top: 10px;
+}
+
+body {
+  font-size: 18px;
+}

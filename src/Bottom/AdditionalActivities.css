@@ -1,0 +1,98 @@
+.additional-activities {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.additional-activities h2 {
+  position: relative;
+  margin: 20px 0;
+  font-size: 1.5em;
+  color: white;
+}
+
+.additional-activities h2::before,
+.additional-activities h2::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 30%;
+  height: 1px;
+  background: white;
+}
+
+.additional-activities h2::before {
+  left: 0;
+}
+
+.additional-activities h2::after {
+  right: 0;
+}
+
+.activity-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px;
+  background-color: #282c34; 
+  color: white; 
+}
+
+.activity-box.connected {
+  padding-top: 0; 
+  border-top: none;
+}
+.activity-image-left,
+.activity-image-right,
+.activity-video-left,
+.activity-video-right {
+  width: 40%;
+  height: auto;
+}
+
+.activity-video-left,
+.activity-video-right {
+  height: 225px; 
+}
+
+.activity-image-left.rotating-image,
+.activity-video-left.rotating-image {
+  width: 30%; 
+  height: 500px; 
+}
+
+.activity-text-left,
+.activity-text-right {
+  width: 50%;
+}
+
+.activity-image-left,
+.activity-video-left {
+  order: 1;
+}
+
+.activity-text-right {
+  order: 2;
+}
+
+.activity-text-left {
+  order: 1;
+}
+
+.activity-image-right,
+.activity-video-right {
+  order: 2;
+}
+
+.activity-text-right a {
+  color: #61dafb; 
+  text-decoration: none; 
+}
+
+.activity-text-right a:hover {
+  text-decoration: underline; 
+}
+
+/* Add styling for rotating image */
+.activity-image-left.rotating-image {
+  transition: opacity 0.5s ease-in-out;
+}

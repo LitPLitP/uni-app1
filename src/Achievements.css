@@ -1,0 +1,111 @@
+.achievements-container {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #282c34; 
+  }
+  
+  .achievements-box {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .achievement {
+    display: flex;
+    align-items: center;
+    background-color: #444;
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .achievement img {
+    width: 350px;
+    height: 150px;
+    object-fit: cover;
+    cursor: pointer; 
+  }
+  
+  .achievement.left img {
+    margin-right: 20px;
+  }
+  
+  .achievement.right {
+    flex-direction: row-reverse;
+  }
+  
+  .achievement.right img {
+    margin-left: 20px;
+  }
+  
+  .achievement p {
+    flex: 1;
+    margin: 0;
+    color: white; 
+  }
+  
+  .zoomed-image-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    cursor: zoom-out; 
+  }
+  
+  .zoomed-image {
+    max-width: 90%;
+    max-height: 90%;
+  }
+  
+  .carousel {
+    display: flex;
+    align-items: center;
+  }
+  
+  .carousel button {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+  }
+  
+  .carousel button:focus {
+    outline: none;
+  }
+  
+  .carousel img {
+    margin: 0 10px;
+  }
+  
+  .achievement a {
+    color: blue; 
+    text-decoration: none; 
+  }
+  
+  .achievement a:hover {
+    text-decoration: underline; 
+  }
+  
+  .achievement a:visited {
+    color: blue
+  }
+  
+  .special-case {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .centered-text {
+    text-align: center;
+  }
+  
