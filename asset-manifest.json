@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/uni-app1/static/css/main.5ea7d809.css",
+    "main.js": "/uni-app1/static/js/main.85656908.js",
+    "static/js/453.93b9ba3d.chunk.js": "/uni-app1/static/js/453.93b9ba3d.chunk.js",
+    "index.html": "/uni-app1/index.html",
+    "main.5ea7d809.css.map": "/uni-app1/static/css/main.5ea7d809.css.map",
+    "main.85656908.js.map": "/uni-app1/static/js/main.85656908.js.map",
+    "453.93b9ba3d.chunk.js.map": "/uni-app1/static/js/453.93b9ba3d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5ea7d809.css",
+    "static/js/main.85656908.js"
+  ]
+}
